@@ -14,9 +14,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
   static const List<Widget> screenoption = [
-    HomeWidget(),
-    FavoriteWidget(),
-    SizedBox(),
+    HomeWidget(), FavouriteWidget(), SizedBox(),
     // Navigator.of(context).push(MaterialPageRoute(builder: (context) => const ProfileScreen()))
   ];
   static const List<Widget> titleoption = <Widget>[
